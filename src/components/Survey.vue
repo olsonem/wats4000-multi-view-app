@@ -105,7 +105,7 @@ export default {
         (this.q4 != '') &&
         (this.q5 != '')) {
           console.log('Form is valid');
-      this.$router.push('Secret')// TODO: If all of the data is valid, then use the $router to move the user to the Secret page.
+      this.$router.push('Secret')
          
       } else {
         console.log('Form is not vaild.');
